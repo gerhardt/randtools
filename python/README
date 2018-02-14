@@ -1,0 +1,15 @@
+
+Python commands: 
+dat2bin.py - changes the dat files (raw time tags) to the bin format
+dat2neu.py - changes the dat files (raw time tags) to von Neumann unbiased bits
+dat2sel.py - take only the timetags which are less than XXX ps far away
+tss.py - show only the time stamps
+
+Shell commands:
+grbbin.sh - 'grab' the binary data (with xxd in the Linux command line)
+grbdat.sh - 'grab' the dat file (to check if this is equal to the bin file
+processall.sh - convert the mass of *.dat files to other formats (for easier processing)
+
+Mathematica:
+read_binary_trng_formats_01.nb - Mathematica example on the different file formats
+
